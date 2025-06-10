@@ -1,0 +1,533 @@
+body {
+    font-family: serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.hor {
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar,
+.main-header {
+    padding: 50px 200px 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header {
+    gap: 30px;
+    padding: 50px 0 0 200px;
+}
+
+.main-header h1 {
+    font-size: 72px;
+}
+
+.navbar span {
+    color: hsla(6, 84%, 58%, 1);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    color: hsla(240, 9%, 23%, 1);
+    font-size: 18px;
+}
+
+.navbar button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 30px;
+    background-color: hsla(6, 84%, 58%, 1);
+    border-radius: 10px;
+    color: white;
+
+}
+
+.round-img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 650px !important;
+}
+
+.girl-img {
+    margin-right: 100px;
+    width: 444px;
+}
+
+input {
+    padding: 17px 31px 17px 20px;
+    border: none;
+    border-right: solid 1px;
+}
+
+.input-div {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-div button {
+    padding: 17px 54px;
+    background-color: hsla(6, 84%, 58%, 1);
+
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 34px;
+    color: hsla(240, 2%, 37%, 1);
+    letter-spacing: 2%;
+}
+
+.round2-img {
+    width: 450px !important;
+    top: 105px;
+    right: 98px;
+}
+
+.girl-div {
+    position: relative;
+}
+
+.i,
+.google,
+.paypal,
+.square {
+    position: absolute;
+}
+
+.i {
+    top: -20px;
+    left: 0;
+}
+
+.google {
+    top: 30%;
+    left: -181px;
+}
+
+.paypal {
+    right: 0;
+    bottom: 50px;
+}
+
+.square {
+    right: 20px;
+    top: 20px;
+}
+
+.user-div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    top: 24%;
+    right: 0;
+}
+
+.user-img {
+    background-color: hsla(29, 100%, 62%, 1);
+    border-radius: 25px;
+}
+
+.user-div p,
+.user-div2 p {
+    margin: 5px 0;
+}
+
+.rating {
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+}
+
+.user-div2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    left: -100px;
+    bottom: 30px;
+}
+
+.user2-img {
+    background-color: purple;
+    top: none;
+}
+
+.section1 {
+    background-image: url("./assets/vertical.png");
+    padding: 95px 200px 71px 200px;
+    background-color: rgb(0, 0, 70);
+    color: white;
+}
+
+.section1 h1 {
+    text-align: start;
+    font-size: 40px;
+}
+
+.companies-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company {
+    background-color: white;
+    color: black;
+    padding: 20px 23px 20px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.company:hover {
+    background-color: hsla(6, 84%, 58%, 0.7);
+    color: white;
+}
+
+.first,
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third {
+    gap: 15px;
+}
+
+.third p {
+    font-weight: 600;
+}
+
+.first p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.third button {
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 5px;
+    padding: 8px 13px;
+
+}
+
+.third button:hover {
+    color: white;
+}
+
+.company h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    padding: 13px 12px;
+}
+
+.view-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.view {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section2 {
+    padding: 150px 200px;
+}
+
+.section2 h1 {
+    margin: 0 0 50px 0;
+    font-size: 48px;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px hsla(0, 0%, 93%, 1);
+    padding: 30px 25px 52px 26px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 5px hsla(0, 0%, 93%, 1);
+    transition: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 5px 6px 10px hsl(0, 0%, 80%);
+    transform: translateY(-20px);
+}
+
+.images {
+    background-color: hsla(0, 100%, 90%, 1);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.card p:nth-of-type(1) {
+    margin: 30px 0 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card p:nth-of-type(2) {
+    margin: 0;
+    font-weight: 300;
+}
+
+.dot-img {
+    position: absolute;
+    left: 32px;
+    top: -100px;
+    width: 130px;
+}
+
+.dot-img2 {
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+    width: 130px;
+}
+
+.section3 {
+    padding: 0 100px 100px 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-job h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.new-job p {
+    letter-spacing: 2%;
+    color: hsla(240, 2%, 37%, 1);
+    margin: 50px 0;
+    font-size: 18px;
+}
+
+.new-job button {
+    background-color: hsla(6, 84%, 58%, 1);
+    color: white;
+    padding: 20px 16px;
+    border-radius: 10px;
+}
+
+.two {
+    width: 700px;
+}
+
+.section4 {
+    background-image: url('./assets/background.png');
+    background-color: hsla(0, 100%, 98%, 1);
+    padding: 100px 200px 0 200px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 750px;
+}
+
+.postJob-div h1 {
+    font-size: 40px;
+}
+
+.postJob-div p {
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+.section5 {
+    padding: 200px 0 150px 200px;
+}
+
+.section5 h1 {
+    font-size: 40px;
+}
+
+.quotes-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.quote {
+    padding: 53px 24px 53px 36px;
+    border-radius: 5px;
+    border: solid 1px hsla(0, 0%, 93%, 1);
+}
+
+.quote p:nth-of-type(1) {
+    color: hsla(240, 2%, 37%, 1);
+    margin-bottom: 50px;
+}
+
+.profile-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-div p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.profile-div p:nth-of-type(2) {
+    color: hsla(240, 2%, 37%, 1);
+    margin: 0 0 15px 0;
+}
+
+.hor-dots {
+    margin: 70px 0 0 50%;
+}
+
+.section6 {
+    background-image: url("/src/assets/vertical.png");
+    /* opacity: 0.3; */
+    padding: 0 200px 120px 200px;
+}
+
+.red-div {
+    padding: 85px 400px 85px 150px;
+    background-color: hsla(6, 84%, 58%, 1);
+    color: white;
+    position: relative;
+    border-radius: 25px;
+}
+
+.red-div h1 {
+    font-size: 40px;
+}
+
+.red-div input {
+    border: none;
+    border-radius: 10px;
+    padding: 25px 450px 25px 30px;
+}
+
+.red-div button {
+    padding: 14px 40px 14px 37px;
+    border-radius: 10px;
+    background-color: hsla(6, 84%, 58%, 1);
+    color: white;
+    position: absolute;
+    bottom: 89px;
+    left: 56%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.low {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    padding: 106px 200px 0 200px;
+}
+
+.top-footer {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.first-footer h1 {
+    font-size: 36px;
+    margin: 0 0 30px 0;
+}
+
+.first-footer p:nth-of-type(1) {
+    color: hsla(240, 2%, 37%, 1);
+    margin: 0;
+}
+
+.first-footer p:nth-of-type(2) {
+    color: hsla(6, 84%, 58%, 1);
+    text-decoration: underline;
+    margin: 10px 0 30px 0;
+}
+
+
+.top-footer ul {
+    list-style: none;
+}
+
+.top-footer ul li {
+    margin-bottom: 20px;
+}
+
+.top-footer ul li:hover {
+    color: red;
+}
+
+.special {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.last-footer h2{
+    margin: 10px;
+    font-size: 20px;
+}
+.last-footer div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.last-footer div p:nth-of-type(2) {
+    color: hsla(6, 84%, 58%, 1);
+    font-weight: 600;
+}
+
+
+.bottom-footer p {
+    text-align: center;
+    font-size: 14px;
+    color: hsla(240, 2%, 37%, 1);
+    margin: 30px 0;
+}
