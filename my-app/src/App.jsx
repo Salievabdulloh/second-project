@@ -36,6 +36,8 @@ import telegram from './assets/telegram.png'
 import social from './assets/social.png'
 import first from './assets/first.png'
 import last from './assets/lasr.png'
+import line1 from './assets/line1.png'
+import line2 from './assets/line2.png'
 
 function App() {
   return (
@@ -193,6 +195,8 @@ function App() {
           </div>
         </section>
         <section className='section3'>
+          <img src={line1} className='lines line1'/>
+          <img src={line2} className='lines line2'/>
           <img src={dots} className='dot-img' />
           <div className="new-job">
             <h1>Get Start New Job</h1>

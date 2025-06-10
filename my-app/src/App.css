@@ -509,10 +509,11 @@ footer {
     margin-bottom: 30px;
 }
 
-.last-footer h2{
+.last-footer h2 {
     margin: 10px;
     font-size: 20px;
 }
+
 .last-footer div {
     display: flex;
     gap: 20px;
@@ -530,4 +531,34 @@ footer {
     font-size: 14px;
     color: hsla(240, 2%, 37%, 1);
     margin: 30px 0;
+}
+
+.lines {
+    position: absolute;
+    width: 300px;
+}
+
+.line2 {
+    bottom: 0;
+    z-index: -1;
+    left: 400px;
+}
+
+.line1 {
+    top: 0;
+    right: 69px;
+    z-index: -1;
+}
+
+.new-job button {
+    padding: 14px 40px 14px 37px;
+    border-radius: 10px;
+    background-color: hsla(6, 84%, 58%, 1);
+    color: white;
+    position: absolute;
+    bottom: 89px;
+    left: 56%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
 }
