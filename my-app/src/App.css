@@ -559,3 +559,7 @@ footer {
     align-items: center;
     font-size: 18px;
 }
+
+.first-footer span {
+    color: hsla(6, 84%, 58%, 1);
+}
