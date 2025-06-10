@@ -38,6 +38,9 @@ import first from './assets/first.png'
 import last from './assets/lasr.png'
 import line1 from './assets/line1.png'
 import line2 from './assets/line2.png'
+import many from './assets/many.png'
+import gray from './assets/gray.png'
+import lastgray from './assets/lastgray.png'
 
 function App() {
   return (
@@ -195,8 +198,8 @@ function App() {
           </div>
         </section>
         <section className='section3'>
-          <img src={line1} className='lines line1'/>
-          <img src={line2} className='lines line2'/>
+          <img src={line1} className='lines line1' />
+          <img src={line2} className='lines line2' />
           <img src={dots} className='dot-img' />
           <div className="new-job">
             <h1>Get Start New Job</h1>
@@ -261,6 +264,7 @@ function App() {
         </section>
         <section className='section6'>
           <div className="red-div">
+            <img src={many} className='many' />
             <h1>Subscribe to get
               update vacancy post</h1>
             <img src={low} className="low" />
@@ -272,6 +276,8 @@ function App() {
 
       <footer>
         <div className="top-footer">
+          <img src={gray} className='gray' />
+          <img src={lastgray} className='gray2' />
           <div className="first-footer">
             <h1>J<span>O</span>BPLY</h1>
             <p>152/3 , Western Road, New York</p>

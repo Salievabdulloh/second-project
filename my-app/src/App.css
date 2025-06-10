@@ -466,6 +466,7 @@ input {
 
 footer {
     padding: 106px 200px 0 200px;
+    position: relative;
 }
 
 .top-footer {
@@ -562,4 +563,21 @@ footer {
 
 .first-footer span {
     color: hsla(6, 84%, 58%, 1);
+}
+
+.many{
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+}
+
+.gray{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.gray2{
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
 }
