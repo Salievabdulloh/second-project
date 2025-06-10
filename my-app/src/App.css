@@ -550,14 +550,11 @@ footer {
     z-index: -1;
 }
 
-.new-job button {
+.postJob-div button {
     padding: 14px 40px 14px 37px;
     border-radius: 10px;
     background-color: hsla(6, 84%, 58%, 1);
     color: white;
-    position: absolute;
-    bottom: 89px;
-    left: 56%;
     display: flex;
     align-items: center;
     font-size: 18px;
